@@ -210,11 +210,16 @@ function App() {
             {certifications.map((certification) => (
               <article
                 key={certification.name}
-                className="terminal-panel rounded-xl border border-terminal-border bg-terminal-card/70 p-5"
+                className="terminal-panel relative rounded-xl border border-terminal-border bg-terminal-card/70 p-5"
               >
-                <p className="text-lg font-semibold text-terminal-text">{certification.name}</p>
+                {certification.status === 'in-progress' && (
+                  <span className="absolute right-3 top-3 rounded-full border border-neon-green/60 bg-neon-green/10 px-2 py-0.5 text-xs text-neon-green">
+                    In Progress
+                  </span>
+                )}
+                <p className="text-lg font-semibold text-terminal-text pr-20">{certification.name}</p>
                 <p className="mt-2 text-sm text-terminal-muted">{certification.issuer}</p>
-                <p className="text-sm text-neon-blue">Issued {certification.year}</p>
+                <p className="text-sm text-neon-blue">{certification.status === 'in-progress' ? 'Expected ' : 'Issued '}{certification.year}</p>
               </article>
             ))}
           </div>

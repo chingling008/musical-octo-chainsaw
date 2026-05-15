@@ -1,17 +1,26 @@
 export const certifications = [
   {
-    name: 'CompTIA Security+',
-    issuer: 'CompTIA',
-    year: '2025',
+    name: 'Cloud Fundamentals',
+    issuer: 'IBM',
+    year: '2022',
+    status: 'completed',
   },
   {
-    name: 'eJPT',
-    issuer: 'INE Security',
+    name: 'Software Engineering Certificate',
+    issuer: 'ALX Academy',
     year: '2024',
+    status: 'completed',
   },
   {
-    name: 'Certified Ethical Hacker',
-    issuer: 'EC-Council',
-    year: '2023',
+    name: 'Technical Support',
+    issuer: 'MICSeta',
+    year: '2022',
+    status: 'completed',
+  },
+  {
+    name: 'CompTIA PenTest+',
+    issuer: 'CompTIA',
+    year: '2026',
+    status: 'in-progress',
   },
 ]
