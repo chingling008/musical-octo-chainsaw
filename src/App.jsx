@@ -151,8 +151,8 @@ function App() {
         {/* PROJECTS */}
         <section id="projects" className="scroll-mt-24 space-y-6">
           <header className="space-y-2">
-            <p className="text-sm uppercase tracking-widest text-neon-blue">Robotics Projects</p>
-            <h2 className="text-3xl font-bold">Project Gallery</h2>
+            <p className="text-sm uppercase tracking-widest text-neon-blue">Selected Work</p>
+            <h2 className="text-3xl font-bold">Robotics, Software &amp; Web Projects</h2>
           </header>
           <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
             {projects.map((project) => (

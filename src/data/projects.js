@@ -1,20 +1,74 @@
 export const projects = [
   {
-    title: 'Autonomous Rover Controller',
-    summary: 'A ROS-enabled robotics control stack with obstacle detection and mission planning.',
-    githubUrl: 'https://github.com/chingling008/autonomous-rover-controller',
-    techStack: ['React', 'ROS', 'Python', 'WebSockets'],
+    title: 'Environmental Monitoring Robot',
+    summary:
+      'A robotics project built to move through an environment and collect environmental data for monitoring and analysis.',
+    status: 'Built',
+    techStack: ['Robotics', 'C++', 'Sensors', 'Environmental Monitoring'],
   },
   {
-    title: 'Industrial Arm Diagnostics',
-    summary: 'Real-time dashboard for robotic arm telemetry and predictive maintenance alerts.',
-    githubUrl: 'https://github.com/chingling008/industrial-arm-diagnostics',
-    techStack: ['TypeScript', 'Node.js', 'MQTT', 'Tailwind'],
+    title: 'Cross-Platform Attendance App',
+    summary:
+      'A private attendance platform for teachers and parents. It supports staff login and leave management, with parent messaging planned for release after platform approval.',
+    status: 'Private / Not on GitHub',
+    techStack: ['Cross-Platform', 'Attendance', 'Messaging', 'Leave Management'],
   },
   {
-    title: 'Pentest Report Generator',
-    summary: 'Automates evidence capture and formatted pentest reporting workflows.',
-    githubUrl: 'https://github.com/chingling008/pentest-report-generator',
-    techStack: ['React', 'Express', 'Markdown', 'Playwright'],
+    title: 'AI Payment Verification System',
+    summary:
+      'Compares an uploaded bank statement with a payment slip, uses AI-assisted verification to check that the transaction matches, and approves confirmed payments.',
+    status: 'Private / Not on GitHub',
+    techStack: ['AI', 'Document Processing', 'Payments', 'Automation'],
+  },
+  {
+    title: 'HR Management System',
+    summary:
+      'An HR platform for managing employees, payslips, work records, leave requests, and worked and leave hours.',
+    status: 'Private / Not on GitHub',
+    techStack: ['HR', 'Payslips', 'Time Tracking', 'Leave Management'],
+  },
+  {
+    title: 'Kingdom Kids Website',
+    summary: 'A public website built for Kingdom Kids to present its organisation and services online.',
+    status: 'Live',
+    projectUrl: 'https://kingdomkids.org.za',
+    linkLabel: 'Visit website',
+    techStack: ['Web Development', 'Responsive Design'],
+  },
+  {
+    title: 'Binary Hero Website',
+    summary: 'A public technology-focused website designed and developed for the Binary Hero brand.',
+    status: 'Live',
+    projectUrl: 'https://binaryhero.com',
+    linkLabel: 'Visit website',
+    techStack: ['Web Development', 'Responsive Design'],
+  },
+  {
+    title: 'Stickdown Website',
+    summary: 'A public business website built to give Stickdown a clear and accessible online presence.',
+    status: 'Live',
+    projectUrl: 'https://stickdown.co.za',
+    linkLabel: 'Visit website',
+    techStack: ['Web Development', 'Responsive Design'],
+  },
+  {
+    title: 'WhatsApp Website Management Bot',
+    summary:
+      'A bot that connects through WhatsApp and lets authorised users request and apply content changes to their website.',
+    status: 'Private / Not on GitHub',
+    techStack: ['WhatsApp', 'Automation', 'Bot', 'Web Integration'],
+  },
+  {
+    title: 'Airbnb Clone',
+    summary: 'A full-stack accommodation marketplace clone built to practise booking and property-listing workflows.',
+    status: 'Demo',
+    techStack: ['Full Stack', 'Listings', 'Booking', 'Responsive Design'],
+  },
+  {
+    title: 'Learning Management System',
+    summary:
+      'A hiring demo that showcases online learning workflows, course organisation, and learner management.',
+    status: 'Demo',
+    techStack: ['LMS', 'Courses', 'User Management', 'Web App'],
   },
 ]
